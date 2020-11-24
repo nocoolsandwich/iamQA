@@ -1,0 +1,12 @@
+transformers==3.3.1
+torch==1.6.0
+Flask==1.1.2
+gensim==3.8.3
+scipy==1.5.3
+prettytabl==1.0.1
+termcolor==1.1.0
+scikit-learn==0.23.2
+ptyprocess==0.6.0
+pandas
+jieba
+gensim
