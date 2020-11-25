@@ -5,7 +5,8 @@
 功能：从问题中实体识别  
 例子：qurry:周董是谁？  》》 entiy:周董  
 模型：ALBERT  
-数据集：CCKS2016KBQA  
+数据集：CCKS2016KBQA
+相关项目：
 ## Word2vec
 功能：如果实体不在知识库，则用W2V搜索近似实体  
 例子：entity:周董 >> ['周杰伦','JAY','林俊杰']  
@@ -14,6 +15,9 @@
 ## Reader
 功能：阅读理解文段，精确定位答案。  
 例子：参考SQuQA  
+模型：ALBERT  
+数据集：CMRC2018
+相关项目：https://github.com/CLUEbenchmark/CLUE
 # Web
 功能：web服务，前端交互和结果呈现  
  
