@@ -5,8 +5,8 @@
 
 模型:使用了的`NER(CCKS2016数据)`和`阅读理解模型(CMRC2018)`，还有`Word2Vec`词向量搜索。  
 # 模块介绍
-- ChineseWiki-master
-功能：清洗wiki中文数据
+- ChineseWiki-master  
+功能：清洗wiki中文数据   
 相关项目:https://github.com/mattzheng/ChineseWiki  
 
 - NER
