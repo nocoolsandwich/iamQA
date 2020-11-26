@@ -73,8 +73,11 @@
 5. torchserve打包模型,启动服务  
     在`NER`目录执行  
     ```bash
-    torch-model-archiver --model-name NER --version 1.0 --serialized-file ./Transformer_handler_generalized.py --handler ./Transformer_handler_generalized.py --extra-files "./model/find_NER.py,./model/best_ner.bin,./model/SIM_main.py,./model/CRF_Model.py,./model/BERT_CRF.py,./model/NER_main.py"
-    ```    
+    torch-model-archiver --model-name NER --version 1.0 \
+    --serialized-file ./Transformer_handler_generalized.py \
+    --handler ./Transformer_handler_generalized.py --extra-files \
+    "./model/find_NER.py,./model/best_ner.bin,./model/SIM_main.py,./model/CRF_Model.py,./model/BERT_CRF.py,./model/NER_main.py"
+    ```
     在`reader`目录执行  
     ```bash
     torch-model-archiver --model-name reader --version 1.0 \
@@ -95,7 +98,8 @@
     mv reader/reader.mar model_store/ \
     ```  
     启动服务
-    ```torchserve --start --ts-config config.properties --model-store model_store --models reader=reader.mar,NER=NER.mar,W2V=W2V.mar
+    ```torchserve --start --ts-config config.properties --model-store model_store \
+    --models reader=reader.mar,NER=NER.mar,W2V=W2V.mar
     ```  
 #项目说明  
 NER模块在CCKS2016KBQA准确率98%   
