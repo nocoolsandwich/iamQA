@@ -55,7 +55,7 @@ class TransformersSeqClassifierHandler(BaseHandler, ABC):
 
 
         import jieba
-        jieba.load_userdict(os.path.join(model_dir,r'entity.txt'))
+        #jieba.load_userdict(os.path.join(model_dir,r'entity.txt'))
         #
         # tfidf_path = os.path.join(model_dir, r'output-tfidf-ngram=2-hash=16777216-tokenizer=simple.npz')
         # ranker = retriever.get_class('tfidf')(
