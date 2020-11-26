@@ -1,7 +1,7 @@
 # wikiCH_DRrQA
 中文wiki百科问答系统，本项目使用了torchserver部署模型  
 知识库:wiki百科中文数据,  
-模型:使用了的NER(ccks2016数据)和阅读理解模型(ccsk2018)，还有W2V词向量搜索。  
+模型:使用了的NER(CCKS2016数据)和阅读理解模型(CMRC2018)，还有W2V词向量搜索。  
 # 模块介绍
 ## NER
 功能：从问题中识别实体  
@@ -23,5 +23,7 @@
 相关项目：https://github.com/CLUEbenchmark/CLUE
 ## Web
 功能：web服务，前端交互和结果呈现  
+相关项目：https://github.com/zaghaghi/drqa-webui
 # 使用说明
- 
+1.安装torchserve
+ 参考https://github.com/pytorch/serve#install-torchserve
