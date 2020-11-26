@@ -28,16 +28,16 @@
 功能：web服务，前端交互和结果呈现  
 相关项目：https://github.com/zaghaghi/drqa-webui
 # 使用说明
-1.安装torchserve
+1. 安装torchserve
     参考[install-torchserve](https://github.com/pytorch/serve#install-torchserve)   
     
-2.安装requirements.txt
-    使用豆瓣源快些
+2. 安装requirements.txt
+    使用豆瓣源快些  
     ```bash
     pip install -U -r requirements.txt -i https://pypi.douban.com/simple/
     ```
     
-3.下载准备文件  
+3. 下载准备文件  
 - wiki中文数据  
     [下载地址](https://dumps.wikimedia.org/zhwiki/)  
     linux可用    
@@ -62,11 +62,11 @@
     或者通过这其中一个链接下载:[drive](https://drive.google.com/open?id=1Zh9ZCEu8_eSQ-qkYVQufQDNKPC4mtEKR)[百度](https://pan.baidu.com/s/1luy-GlTdqqvJ3j-A4FcIOw)
     下载解压后将`sgns.merge.word`存放路径:`W2V`   
 
-4.wiki数据清洗    
+4. wiki数据清洗    
     依次运行`1wiki_to_txt.py`,`2wiki_txt_to_csv.py`,`3wiki_csv_to_json.py`,`4wiki_json_to_DB.py`  
     输出:`ChineseWiki-master\DB_output\output.db`,然后把`output.db`放入reader下  
 
-5.torchserve打包模型,启动服务  
+5. torchserve打包模型,启动服务  
     在`NER`目录执行  
     ```bash
     torch-model-archiver --model-name NER --version 1.0 --serialized-file ./Transformer_handler_generalized.py --handler ./Transformer_handler_generalized.py --extra-files "./model/find_NER.py,./model/best_ner.bin,./model/SIM_main.py,./model/CRF_Model.py,./model/BERT_CRF.py,./model/NER_main.py"
