@@ -32,6 +32,7 @@
     参考[install-torchserve](https://github.com/pytorch/serve#install-torchserve)   
     
 2.安装requirements.txt
+    使用豆瓣源快些
     ```bash
     pip install -U -r requirements.txt -i https://pypi.douban.com/simple/
     ```
