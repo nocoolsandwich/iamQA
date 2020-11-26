@@ -1,13 +1,13 @@
 # wikiCH_DRrQA
-中文wiki百科问答系统，本项目使用了torchserver部署模型
-知识库:wiki百科中文数据,
+中文wiki百科问答系统，本项目使用了torchserver部署模型  
+知识库:wiki百科中文数据,  
 模型:使用了的NER(ccks2016数据)和阅读理解模型(ccsk2018)，还有W2V词向量搜索。  
 # 模块介绍
 ## NER
 功能：从问题中识别实体  
 例子：qurry:周董是谁？  》》 entiy:周董  
 模型：ALBERT
-数据集：CCKS2016KBQA
+数据集：CCKS2016KBQA  
 相关项目：https://github.com/997261095/bert-kbqa
 ## Word2vec
 功能：如果实体不在知识库，则用W2V搜索近似实体  
@@ -19,7 +19,7 @@
 功能：阅读理解文段，精确定位答案。  
 例子：参考SQuQA  
 模型：ALBERT  
-数据集：CMRC2018
+数据集：CMRC2018  
 相关项目：https://github.com/CLUEbenchmark/CLUE
 ## Web
 功能：web服务，前端交互和结果呈现  
