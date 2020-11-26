@@ -41,13 +41,12 @@
     
 3. 下载准备文件  
 
-- wiki中文数据  
-    [下载地址](https://dumps.wikimedia.org/zhwiki/)  
+- wiki中文数据,[下载地址](https://dumps.wikimedia.org/zhwiki/)  
     linux可用    
     ```bash
     wget https://dumps.wikimedia.org/zhwiki/20201120/zhwiki-20201120-pages-articles-multistream.xml.bz2
     ```
-    下载文件需要放入ChineseWiki-master根目录,文件大小约2G  
+    文件大小约2G,需要放入ChineseWiki-master根目录
     
 - NER的albert模型  
     模型我已训练好，文件总大小约16M，下载地址    
