@@ -1,9 +1,9 @@
 # wikiCH_DRrQA
-中文wiki百科问答系统，本项目使用了torchserver部署模型    
+中文wiki百科问答系统，本项目使用了`torchserver`部署模型    
 
-知识库:wiki百科中文数据 
+知识库:`wiki百科中文数据 `
 
-模型:使用了的NER(CCKS2016数据)和阅读理解模型(CMRC2018)，还有W2V词向量搜索。  
+模型:使用了的`NER(CCKS2016数据)`和`阅读理解模型(CMRC2018)`，还有`Word2Vec`词向量搜索。  
 # 模块介绍
 - ChineseWiki-master
 功能：清洗wiki中文数据
