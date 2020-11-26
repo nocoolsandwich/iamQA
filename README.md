@@ -34,10 +34,10 @@
 2.安装requirements.txt
     ```bash
     pip install -U -r requirements.txt -i https://pypi.douban.com/simple/
-    ```  
+    ```
     
 3.下载准备文件  
-* wiki中文数据  
+- wiki中文数据  
     [下载地址](https://dumps.wikimedia.org/zhwiki/)  
     linux可用    
     ```bash
@@ -45,17 +45,17 @@
     ```
     下载文件需要放入ChineseWiki-master根目录,文件大小约2G  
     
-* NER的albert模型  
+- NER的albert模型  
     模型我已训练好，文件总大小约16M，下载地址    
     drive:[NER](https://drive.google.com/file/d/14HWqT9LDuF9kvbKFI95TziiHSI9O2BL-/view?usp=sharing)
     baiduyun：  
     下载后存放路径:`NER\model`
-* reader的albert模型  
+- reader的albert模型  
     模型我已训练好，文件总大小约35M，下载地址    
     drive:[reader](https://drive.google.com/file/d/1rQnT4j95oHkEbS5oQi6ecLkuhjzM0lRO/view?usp=sharing)
     baiduyun:
     下载后存放路径:`reader`
-* W2V
+- W2V
     [下载地址](https://github.com/Embedding/Chinese-Word-Vectors)  
     Word2vec/Skip-Gram with Negative Sampling (SGNS)下的Mixed-large 综合Baidu Netdisk/Google Drive的Word  
     或者通过这其中一个链接下载:[drive](https://drive.google.com/open?id=1Zh9ZCEu8_eSQ-qkYVQufQDNKPC4mtEKR)[百度](https://pan.baidu.com/s/1luy-GlTdqqvJ3j-A4FcIOw)
