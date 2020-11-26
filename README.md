@@ -33,7 +33,8 @@
     
 2.安装requirements.txt
     ```bash
-    pip install -U -r requirements.txt -i https://pypi.douban.com/simple/```  
+    pip install -U -r requirements.txt -i https://pypi.douban.com/simple/
+    ```  
     
 3.下载准备文件  
 * wiki中文数据  
@@ -66,22 +67,31 @@
 
 5.torchserve打包模型,启动服务  
     在`NER`目录执行  
-    ```torch-model-archiver --model-name NER --version 1.0 --serialized-file ./Transformer_handler_generalized.py --handler ./Transformer_handler_generalized.py --extra-files "./model/find_NER.py,./model/best_ner.bin,./model/SIM_main.py,./model/CRF_Model.py,./model/BERT_CRF.py,./model/NER_main.py"```    
+    ```bash
+    torch-model-archiver --model-name NER --version 1.0 --serialized-file ./Transformer_handler_generalized.py --handler ./Transformer_handler_generalized.py --extra-files "./model/find_NER.py,./model/best_ner.bin,./model/SIM_main.py,./model/CRF_Model.py,./model/BERT_CRF.py,./model/NER_main.py"
+    ```    
     在`reader`目录执行  
-    ```torch-model-archiver --model-name reader --version 1.0 \
---serialized-file ./checkpoint_score_f1-86.233_em-66.853.pth \
---handler ./Transformer_handler_generalized.py \
---extra-files "./setup_config.json,./inference.py,./official_tokenization.py,./output.db"```  
-    在`W2V`目录执行  
-    ```torch-model-archiver --model-name W2V --version 1.0 --serialized-file ./W2V --handler ./Transformer_handler_generalized.py```  
+    ```bash
+    torch-model-archiver --model-name reader --version 1.0 \
+    --serialized-file ./checkpoint_score_f1-86.233_em-66.853.pth \
+    --handler ./Transformer_handler_generalized.py \
+    --extra-files "./setup_config.json,./inference.py,./official_tokenization.py,./output.db"
+    ``` 
+    在`W2V`目录执行    
+    ```bash
+    torch-model-archiver --model-name W2V --version 1.0 --serialized-file ./W2V --handler ./Transformer_handler_generalized.py
+    ```  
     在`wikiCH_QA`目录执行
-    ```mkdir model_store
-mv NER/NER.mar model_store/
-mv W2V/W2V.mar model_store/
-cp W2V/config.properties config.properties
-mv reader/reader.mar model_store/```  
+    ```bash
+    mkdir model_store \
+    mv NER/NER.mar model_store/ \
+    mv W2V/W2V.mar model_store/ \
+    cp W2V/config.properties config.properties \
+    mv reader/reader.mar model_store/ \
+    ```  
     启动服务
-    ```torchserve --start --ts-config config.properties --model-store model_store --models reader=reader.mar,NER=NER.mar,W2V=W2V.mar```  
+    ```torchserve --start --ts-config config.properties --model-store model_store --models reader=reader.mar,NER=NER.mar,W2V=W2V.mar
+    ```  
 #项目说明  
 NER模块在CCKS2016KBQA准确率98%   
 reader模块在CMRC2018EM:66%,F1:86%  
