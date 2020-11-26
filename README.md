@@ -29,15 +29,18 @@
 相关项目：https://github.com/zaghaghi/drqa-webui
 # 使用说明
 1. 安装torchserve
+
     参考[install-torchserve](https://github.com/pytorch/serve#install-torchserve)   
     
 2. 安装requirements.txt
+
     使用豆瓣源快些  
     ```bash
     pip install -U -r requirements.txt -i https://pypi.douban.com/simple/
     ```
     
 3. 下载准备文件  
+
 - wiki中文数据  
     [下载地址](https://dumps.wikimedia.org/zhwiki/)  
     linux可用    
@@ -50,12 +53,14 @@
     模型我已训练好，文件总大小约16M，下载地址    
     drive:[NER](https://drive.google.com/file/d/14HWqT9LDuF9kvbKFI95TziiHSI9O2BL-/view?usp=sharing)
     baiduyun：  
-    下载后存放路径:`NER\model`
+    下载后存放路径:`NER\model`  
+    
 - reader的albert模型  
     模型我已训练好，文件总大小约35M，下载地址    
     drive:[reader](https://drive.google.com/file/d/1rQnT4j95oHkEbS5oQi6ecLkuhjzM0lRO/view?usp=sharing)
     baiduyun:
-    下载后存放路径:`reader`
+    下载后存放路径:`reader`  
+    
 - W2V
     [下载地址](https://github.com/Embedding/Chinese-Word-Vectors)  
     Word2vec/Skip-Gram with Negative Sampling (SGNS)下的Mixed-large 综合Baidu Netdisk/Google Drive的Word  
