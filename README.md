@@ -132,9 +132,13 @@
     ```  
     
 # 项目说明  
-NER模块在CCKS2016KBQA准确率98%   
-reader模块在CMRC2018EM:66%,F1:86%  
-<img src='https://pic3.zhimg.com/80/v2-d878daa1f3d754c927319efd8dfe8e56_1440w.jpg' width='50px'></img>
+* NER模块在CCKS2016KBQA准确率98%   
+* reader模块在CMRC2018EM:66%,F1:86%  
+# 效果展示
+<img src='https://pic3.zhimg.com/80/v2-d878daa1f3d754c927319efd8dfe8e56_1440w.jpg' width='400px'></img>
+
+<img src='https://pic2.zhimg.com/80/v2-de8422f6997cca4882cd77dcddba63f5_1440w.jpg' width='400px'></img>
+
 
     
    
