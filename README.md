@@ -35,6 +35,11 @@
 功能：web服务，前端交互和结果呈现  
 相关项目：https://github.com/zaghaghi/drqa-webui
 # 使用说明
+0. 下载项目
+    linux可用
+    ```bash
+    git clone https://github.com/nocoolsandwich/wikiCH_QA.git
+    ```
 1. 安装torchserve
 
     参考[install-torchserve](https://github.com/pytorch/serve#install-torchserve)   
