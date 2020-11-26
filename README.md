@@ -126,14 +126,15 @@
     
     启动服务
     
-    ```torchserve --start --ts-config config.properties --model-store model_store \
+    ```bash
+    torchserve --start --ts-config config.properties --model-store model_store \
     --models reader=reader.mar,NER=NER.mar,W2V=W2V.mar
     ```  
     
 # 项目说明  
 NER模块在CCKS2016KBQA准确率98%   
 reader模块在CMRC2018EM:66%,F1:86%  
-[!image](https://pic3.zhimg.com/80/v2-d878daa1f3d754c927319efd8dfe8e56_1440w.jpg) 
+![image](https://pic3.zhimg.com/80/v2-d878daa1f3d754c927319efd8dfe8e56_1440w.jpg) 
 
     
    
