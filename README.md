@@ -60,7 +60,7 @@
 4.wiki数据清洗
 依次运行`1wiki_to_txt.py`,`2wiki_txt_to_csv.py`,`3wiki_csv_to_json.py`,`4wiki_json_to_DB.py`  
 输出:`ChineseWiki-master\DB_output\output.db`,然后把`output.db`放入reader下
-5.torchserve打包模型,启动服务
+5.torchserve打包模型,启动服务  
     在`NER`目录执行
     ```torch-model-archiver --model-name NER --version 1.0 --serialized-file ./Transformer_handler_generalized.py --handler ./Transformer_handler_generalized.py --extra-files "./model/find_NER.py,./model/best_ner.bin,./model/SIM_main.py,./model/CRF_Model.py,./model/BERT_CRF.py,./model/NER_main.py"```    
     在`reader`目录执行
