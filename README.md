@@ -5,28 +5,28 @@
 
 模型:使用了的NER(CCKS2016数据)和阅读理解模型(CMRC2018)，还有W2V词向量搜索。  
 # 模块介绍
-## ChineseWiki-master
+- ChineseWiki-master
 功能：清洗wiki中文数据
 相关项目:https://github.com/mattzheng/ChineseWiki  
-## NER
+- NER
 功能：从问题中识别实体  
 例子：qurry:周董是谁？  》》 entiy:周董  
 模型：ALBERT
 数据集：CCKS2016KBQA  
 相关项目：https://github.com/997261095/bert-kbqa
-## Word2vec
+- Word2vec
 功能：如果实体不在知识库，则用W2V搜索近似实体  
 例子：entity:周董 >> ['周杰伦','JAY','林俊杰']  
 相关项目：https://github.com/Embedding/Chinese-Word-Vectors
-## Entity linking
+- Entity linking
 功能:根据NER或W2V得到的mention entity搜索知识库  
-## Reader
+- Reader
 功能：阅读理解文段，精确定位答案。  
 例子：参考SQuQA  
 模型：ALBERT  
 数据集：CMRC2018  
 相关项目：https://github.com/CLUEbenchmark/CLUE
-## Web
+- Web
 功能：web服务，前端交互和结果呈现  
 相关项目：https://github.com/zaghaghi/drqa-webui
 # 使用说明
