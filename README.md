@@ -140,7 +140,7 @@
     torchserve --start --ts-config config.properties --model-store model_store \
     --models reader=reader.mar,NER=NER.mar,W2V=W2V.mar
     ```  
-6. 启动web服务
+6. 启动web服务  
     在`drqa-webui-master`下执行
     ```bash
     gunicorn --timeout 300 index:app
