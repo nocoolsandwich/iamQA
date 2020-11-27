@@ -10,3 +10,5 @@ ptyprocess==0.6.0
 pandas
 jieba
 gensim
+flask
+gunicorn
