@@ -99,7 +99,7 @@
     
     输出:`ChineseWiki-master\DB_output\output.db`,然后把`output.db`放入reader下  
 
-5. torchserve打包模型,启动服务  
+5. torchserve打包模型,启动torchserve服务  
 
     在`NER`目录执行  
     
@@ -140,10 +140,16 @@
     torchserve --start --ts-config config.properties --model-store model_store \
     --models reader=reader.mar,NER=NER.mar,W2V=W2V.mar
     ```  
-    
+6. 启动web服务
+    在`drqa-webui-master`下执行
+    ```bash
+    gunicorn --timeout 300 index:app
+    ```
+    访问http://localhost:8000
 # 项目说明  
 * NER模块在CCKS2016KBQA准确率98%   
 * reader模块在CMRC2018EM:66%,F1:86%  
+* 你的知识库可以更换，只需要一个带有`id`,`doc`字段的sqlite数据库即可，id为实体名，doc为实体对应的文档，文档尽可能小于512个字符，因为受限于bert的输入长度。
 # 效果展示
 <img src='https://pic3.zhimg.com/80/v2-d878daa1f3d754c927319efd8dfe8e56_1440w.jpg' width='400px'></img>
 
