@@ -42,7 +42,7 @@
     ```
 1. 安装torchserve
 
-    参考[install-torchserve](https://github.com/pytorch/serve#install-torchserve) windows注意openjdk 11的安装方法不一样,自行搜索解决  
+    参考[install-torchserve](https://github.com/pytorch/serve#install-torchserve) windows注意openjdk 11的安装方法不一样,可参考这个[文章](https://www.cjavapy.com/article/81/) 
     
 2. 安装requirements.txt
 
