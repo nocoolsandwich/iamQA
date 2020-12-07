@@ -1,4 +1,4 @@
-# wikiCH_DRrQA
+# iamQA
 中文wiki百科问答系统，本项目使用了`torchserver`部署模型    
 
 知识库:`wiki百科中文数据 `
