@@ -28,7 +28,7 @@
 
 - Reader
 功能：阅读理解文段，精确定位答案。  
-例子：参考SQuQA  
+例子：参考SQuAD 
 模型：ALBERT  
 数据集：CMRC2018  
 相关项目：https://github.com/CLUEbenchmark/CLUE
