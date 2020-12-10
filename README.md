@@ -124,7 +124,7 @@
     在`W2V`目录执行   
     
     ```bash
-    torch-model-archiver --model-name W2V --version 1.0 --serialized-file ./sgns.merge.word --handler ./Transformer_handler_generalized.py
+    torch-model-archiver --model-name W2V --version 1.0 --serialized-file ./W2V.pickle --handler ./Transformer_handler_generalized.py
     ```  
     
     在`wikiCH_QA`目录执行
