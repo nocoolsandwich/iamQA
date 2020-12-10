@@ -25,9 +25,9 @@ class TransformersSeqClassifierHandler(BaseHandler, ABC):
         serialized_file = self.manifest['model']['serializedFile']
 
         model_pt_path = os.path.join(model_dir, serialized_file)
-#         with open(model_pt_path, 'rb') as f:
-#             self.W2V = pickle.load(f)
-        self.W2V = gensim.models.KeyedVectors.load_word2vec_format(model_pt_path,binary = False)
+        with open(model_pt_path, 'rb') as f:
+            self.W2V = pickle.load(f)
+#         self.W2V = gensim.models.KeyedVectors.load_word2vec_format(model_pt_path,binary = False)
 
 
 
