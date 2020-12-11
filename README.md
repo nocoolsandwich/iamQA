@@ -93,7 +93,7 @@
       </tr>
       <tr align="center">
         <td><a href="https://drive.google.com/file/d/1rQnT4j95oHkEbS5oQi6ecLkuhjzM0lRO/view?usp=sharing">reader_model</a></td>
-        <td><a href="https://pan.baidu.com/s/1vmlAuvIdL_G75h5ux2JjZA">NER_model</a></td>
+        <td><a href="https://pan.baidu.com/s/1vmlAuvIdL_G75h5ux2JjZA">reader_model</a></td>
       </tr>
     </table>
     
