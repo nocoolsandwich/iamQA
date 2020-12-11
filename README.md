@@ -94,7 +94,7 @@
     或者通过这其中一个链接下载:[drive](https://drive.google.com/open?id=1Zh9ZCEu8_eSQ-qkYVQufQDNKPC4mtEKR)[百度](https://pan.baidu.com/s/1luy-GlTdqqvJ3j-A4FcIOw)
     
     下载解压后将`sgns.merge.word`存放路径:`W2V`   
-    在`W2V`下执行运行`to_pickle.py`可以得到文件`W2V.pickle`,这一步是为了把读进gensim的词向量转换成pickle,这样后续启动torchserve的时候可以更加快速
+    在`W2V`下执行运行`to_pickle.py`可以得到文件`W2V.pickle`,这一步是为了把读进gensim的词向量转换成pickle,这样后续启动torchserve的时候可以更加快速,运行`to_pickle.py`的时间比较久,你可以先往后做,同步进行也是没问题的。
 
 4. wiki数据清洗    
 
