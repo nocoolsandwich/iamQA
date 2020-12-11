@@ -69,20 +69,33 @@
 - NER的albert模型  
 
     模型我已训练好，文件总大小约16M，下载地址   
-    
-    drive:[NER](https://drive.google.com/file/d/14HWqT9LDuF9kvbKFI95TziiHSI9O2BL-/view?usp=sharing)
-    
-    baiduyun：  
+   
+    <table>
+      <tr align="center">
+        <td><b>drive</b></td>
+        <td><b>baiduyun(提取码:1234)</b></td>
+      </tr>
+      <tr align="center">
+        <td><a href="https://drive.google.com/file/d/14HWqT9LDuF9kvbKFI95TziiHSI9O2BL-/view?usp=sharing">NER_model</a></td>
+        <td><a href="https://pan.baidu.com/s/141ZDBaBGtmkjUPIw8AtJ8A">NER_model</a></td>
+      </tr>
+    </table>
     
     下载后存放路径:`NER\model`  
     
 - reader的albert模型  
 
     模型我已训练好，文件总大小约35M，下载地址   
-    
-    drive:[reader](https://drive.google.com/file/d/1rQnT4j95oHkEbS5oQi6ecLkuhjzM0lRO/view?usp=sharing)
-    
-    baiduyun:
+    <table>
+      <tr align="center">
+        <td><b>drive</b></td>
+        <td><b>baiduyun(提取码:1234)</b></td>
+      </tr>
+      <tr align="center">
+        <td><a href="https://drive.google.com/file/d/1rQnT4j95oHkEbS5oQi6ecLkuhjzM0lRO/view?usp=sharing">reader_model</a></td>
+        <td><a href="https://pan.baidu.com/s/1vmlAuvIdL_G75h5ux2JjZA">NER_model</a></td>
+      </tr>
+    </table>
     
     下载后存放路径:`reader`  
     
