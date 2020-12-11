@@ -93,7 +93,7 @@
       </tr>
       <tr align="center">
         <td><a href="https://drive.google.com/file/d/1rQnT4j95oHkEbS5oQi6ecLkuhjzM0lRO/view?usp=sharing">reader_model</a></td>
-        <td><a href="https://pan.baidu.com/s/1vmlAuvIdL_G75h5ux2JjZA">reader_model</a></td>
+        <td><a href="https://pan.baidu.com/s/1Oj5thGMJKwza5M6MaeRrCA">reader_model</a></td>
       </tr>
     </table>
     
@@ -104,7 +104,17 @@
     
     Word2vec/Skip-Gram with Negative Sampling (SGNS)下的Mixed-large 综合Baidu Netdisk/Google Drive的Word  
     
-    或者通过这其中一个链接下载:[drive](https://drive.google.com/open?id=1Zh9ZCEu8_eSQ-qkYVQufQDNKPC4mtEKR)[百度](https://pan.baidu.com/s/1luy-GlTdqqvJ3j-A4FcIOw)
+    或者通过这其中一个链接下载:
+        <table>
+      <tr align="center">
+        <td><b>drive</b></td>
+        <td><b>baiduyun</b></td>
+      </tr>
+      <tr align="center">
+        <td><a href="https://drive.google.com/open?id=1Zh9ZCEu8_eSQ-qkYVQufQDNKPC4mtEKR">W2V.file</a></td>
+        <td><a href="https://pan.baidu.com/s/1luy-GlTdqqvJ3j-A4FcIOw">W2V.file</a></td>
+      </tr>
+    </table>
     
     下载解压后将`sgns.merge.word`存放路径:`W2V`   
     在`W2V`下执行运行`to_pickle.py`可以得到文件`W2V.pickle`,这一步是为了把读进gensim的词向量转换成pickle,这样后续启动torchserve的时候可以更加快速,运行`to_pickle.py`的时间比较久,你可以先往后做,同步进行也是没问题的。
