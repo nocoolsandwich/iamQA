@@ -64,7 +64,7 @@
     wget https://dumps.wikimedia.org/zhwiki/20201120/zhwiki-20201120-pages-articles-multistream.xml.bz2
     ```
     
-    文件大小约2G,需要放入ChineseWiki-master根目录
+    文件大小约2G,无需解压,放入ChineseWiki-master根目录
     
 - NER的albert模型  
 
