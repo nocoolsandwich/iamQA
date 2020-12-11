@@ -4,9 +4,10 @@
 知识库:`wiki百科中文数据 `
 
 模型:使用了的`NER(CCKS2016数据)`和`阅读理解模型(CMRC2018)`，还有`Word2Vec`词向量搜索。  
+
+详细内容可以参考文章:[WIKI+ALBERT+NER+W2V+Torchserve+前端的中文问答系统开源项目](https://zhuanlan.zhihu.com/p/333682032)
 # 项目框架
 ![项目框架](https://github.com/nocoolsandwich/iamQA/blob/main/structure.jpg)
-<img src='https://pic2.zhimg.com/80/v2-389dd6e2b94bd72d2f39ddc9f3ad0101_1440w.jpg' width='1000px'></img>
 # 模块介绍
 - ChineseWiki-master  
 功能：清洗wiki中文数据   
