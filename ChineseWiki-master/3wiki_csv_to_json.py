@@ -34,8 +34,8 @@ for num,data in enumerate(tqdm(zip(df['level'],df['context']))):
             if level==1:
                 sec = sec[:-1]
             sec_dict = {'id': re.sub('\n|\】|\【|\=', '', ''.join(sec[0])) + '|||' + str(num_count),
-                        # 'text': re.sub('\n|\】|\【|\=', '', ''.join(sec[1:]))}#text是text
-                        'text': re.sub('\n|\】|\【|\=', '', ''.join(sec[0]))}#text是id
+                        'text': re.sub('\n|\】|\【|\=', '', ''.join(sec[1:]))}#text是text
+                        #'text': re.sub('\n|\】|\【|\=', '', ''.join(sec[0]))}#text是id
 
             num_count += 1
 #             total_sec.append(sec_dict)
