@@ -12,3 +12,4 @@ jieba
 gensim
 flask
 gunicorn
+torchserve==0.03
