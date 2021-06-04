@@ -1,5 +1,5 @@
 # iamQA
-中文wiki百科问答系统，本项目使用了`torchserver`部署模型    
+中文wiki百科问答系统，本项目使用了`torchserver`部署模型（不推荐用torchserve，如果你可以的话，用flask就好了，debug也比较方便）
 
 知识库:`wiki百科中文数据 `
 
